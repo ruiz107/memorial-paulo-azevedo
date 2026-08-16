@@ -333,7 +333,7 @@ $fotos = array(
       <div class="container">
         <div class="section-header">
           <h2>Contato</h2>
-          <p>Esta homenagem foi criada por Fernando Azevedo Ruiz, neto de Paulo Azevedo Filho.</p>
+          <p>Este memorial foi criado por Fernando Azevedo Ruiz, neto de Paulo Azevedo Filho.</p>
           <p>Para entrar em contato comigo, utilize as redes sociais abaixo:</p>
           <div class="social-links">
             <a href="https://www.facebook.com/profile.php?id=100004345022375" target="_blank"
