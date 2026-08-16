@@ -8,25 +8,25 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Reveal
@@ -58,7 +58,7 @@
       <div id="logo" class="pull-left">
         <h1><a href="#body" class="scrollto">Memorial<span> de um Pracinha</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+        <!-- <a href="#body"><img src="assets/img/logo.png" alt="" title="" /></a>-->
       </div>
 
       <nav id="nav-menu-container">
@@ -77,11 +77,11 @@
   ============================-->
   <section id="intro">
     <div id="intro-carousel" class="owl-carousel" >
-      <div class="item" style="background-image: url('img/custom/slider/3.jpg');"></div>
-      <div class="item" style="background-image: url('img/custom/slider/4.jpg');"></div>
-      <div class="item" style="background-image: url('img/custom/slider/1.jpg');"></div>
-      <div class="item" style="background-image: url('img/custom/slider/2.jpg');"></div>
-      <div class="item" style="background-image: url('img/custom/slider/5.jpg');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/slider/3.jpg');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/slider/4.jpg');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/slider/1.jpg');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/slider/2.jpg');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/slider/5.jpg');"></div>
     </div>
 
   </section>
@@ -99,7 +99,7 @@
             </div>
             <div class="content">
             <h3>O pracinha, cidadão de Cosmópolis-SP, defendeu o Brasil nos combates da FEB durante a segunda guerra mundial.</h3>
-              <img src="img/custom/paulo-azevedo.jpg" alt="Paulo Azevedo Filho" style="float: left; margin-right: 20px; margin-bottom: 20px; max-width: 100%;">
+              <img src="assets/img/custom/paulo-azevedo.jpg" alt="Paulo Azevedo Filho" style="float: left; margin-right: 20px; margin-bottom: 20px; max-width: 100%;">
 <p>O bravo expedicionário Paulo de Azevedo Filho, nasceu em Cosmópolis no dia 24 de maio de 1921. São seus pais o Sr. Paulo Barboza de Azevedo e Dona Elvira Strazzacappa Azevedo. Fez o curso primário no grupo escolar de Cosmópolis e o curso ginasial no Colégio Cesário Mota em Campinas. Foi aluno do Tiro de Guerra nº 176 em Campinas, recebendo o certificado de reservista no dia 7 de setembro de 1940.            </p>
 <p>Em 14 de janeiro de 1943 foi convocado para servir no 6º regimento de infantaria com sede em Caçapava, tendo feito alguns meses depois de ter sido incorporado, o curso de enfermeiro no Instituto Federal de Especialistas, no 4º batalhão de infantaria em São Paulo. Terminado o curso, retornou a Taubaté, para integrar a sempre gloriosa Força Expedicionária Brasileira.            </p>
 <p>Fazendo parte da formação da Saúde do <a href="https://pt.wikipedia.org/wiki/3.%C2%BA_Batalh%C3%A3o_do_6.%C2%BA_Regimento_de_Infantaria_da_FEB" target="_blank">3º batalhão, do 6º regimento de infantaria</a>, embarcou para a Itália no dia 1 de julho de 1944 a bordo do gigantesco transporte americano <a href="fhttps://pt.wikipedia.org/wiki/USS_General_W.A._Mann" target="_blank">General Mann</a> o qual levava a bordo 5400 homens, comandados pelos generais <a href="https://pt.wikipedia.org/wiki/Mascarenhas_de_Morais" target="_blank">Mascarenhas de Morais</a> e <a href="https://pt.wikipedia.org/wiki/Euclides_Zen%C3%B3bio_da_Costa" target="_blank">Zenobio da Costa</a>. Desembarcou no porto de Nápoles no dia 16 de julho, após ter feito uma boa, mas arriscada viagem. Antes do navio atracar a sua primeira impressão foi ótima, pois tendo avistado somente água durante 15 dias, e avistando os primeiros sinais de porto, julgou que finalmente desceria em terra firme e que iria conhecer as maravilhas do porto de Nápoles. Grande porém foi sua surpresa ao desembarcar, pois enorme era a quantidade de navios semi-afundados, casas inteiramente destruídas, havendo por todos os lados destruição e ruína. Logo após o desembarque, seguiu com os demais para Bagnoli, onde ficaram acampados no bosque real, onde outrora tinha existido o vulcão Astrônia. A primeira noite passada em terras italianas foi bem desagradável, pois durante uma hora os alemães bombardearam o porto de Nápoles, que ficava bem próximo ao acampamento. Neste primeira noite, tiveram pois uma amostra do que seria a guerra.            </p>
@@ -122,6 +122,14 @@
       <div class="container">
         <div class="section-header">
           <h2>Homenagens</h2>
+          <p>O nome de Paulo Azevedo Filho batiza duas ruas: uma em Cosmópolis, sua cidade natal (<a
+              href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Paulo+Azevedo+Filho%2C+Cosm%C3%B3polis%2C+SP"
+              target="_blank">ver no mapa</a>), e outra em Campinas, no bairro Vila I.A.P.I. (<a
+              href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Paulo+Azevedo+Filho%2C+Vila+I.A.P.I.%2C+Campinas%2C+SP"
+              target="_blank">ver no mapa</a>), denominada pelo Decreto nº 7.673, de 28 de janeiro de 1983. Confira o
+            <a href="assets/docs/rua-paulo-azevedo-filho.pdf" target="_blank">protocolo de promulgação do nome</a> e
+            saiba mais em sua <a href="https://museuvirtualdafeb.eb.mil.br/biografias/paulo-azevedo-filho/"
+              target="_blank">biografia no Museu Virtual da FEB</a>.</p>
           <p>Alunos de escolas municipais de Cosmópolis construíram uma bela homenagem aos pracinhas.</p>
         </div>
       </div>
@@ -175,8 +183,8 @@ $paginas = array(
 		  echo '
 		  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/custom/scans/'.$pagina.'.jpg" class="portfolio-popup">
-                <img src="img/custom/scans/thumbnail/'.$pagina.'.jpg" alt="">
+              <a href="assets/img/custom/scans/'.$pagina.'.jpg" class="portfolio-popup">
+                <img src="assets/img/custom/scans/thumbnail/'.$pagina.'.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">'.$descricao.'</h2></div>
                 </div>
@@ -251,11 +259,13 @@ $fotos = array(
 	
 );
 	foreach ($fotos as $foto => $descricao) {
+		  $restaurada = 'assets/img/custom/fotos/atualizadas/'.$foto.'.webp';
+		  $temRestaurada = file_exists(__DIR__.'/'.$restaurada);
 		  echo '
 		  <div class="col-lg-3 col-md-4">
             <div class="fotos-item wow fadeInUp">
-              <a href="img/custom/fotos/'.$foto.'.jpg" class="fotos-popup">
-                <img src="img/custom/fotos/thumbnail/'.$foto.'.jpg" alt="">
+              <a href="assets/img/custom/fotos/'.$foto.'.jpg" class="fotos-popup"'.($temRestaurada ? ' data-restored="'.$restaurada.'"' : '').'>
+                <img src="assets/img/custom/fotos/thumbnail/'.$foto.'.jpg" alt="">'.($temRestaurada ? '<span class="fotos-item-badge">Restaurada com IA</span>' : '').'
                 <div class="fotos-overlay">
                   <div class="fotos-info"><h2 class="wow fadeInUp">'.$descricao.'</h2></div>
                 </div>
@@ -322,9 +332,16 @@ $fotos = array(
       <div class="container">
         <div class="section-header">
           <h2>Contato</h2>
-          <p>Para entrar em contato conosco, utilize as redes sociais abaixo:</p>
-          <a href="https://www.facebook.com/profile.php?id=100004345022375" target="_blank">https://www.facebook.com/profile.php?id=100004345022375</a><br />
-          <a href="https://www.instagram.com/frndruiz/" target="_blank">https://www.instagram.com/frndruiz/</a><br />
+          <p>Esta homenagem foi criada por Fernando Azevedo Ruiz, neto de Paulo Azevedo Filho.</p>
+          <p>Para entrar em contato comigo, utilize as redes sociais abaixo:</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100004345022375" target="_blank"
+              aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/frndruiz/" target="_blank" aria-label="Instagram"><i
+                class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/fernandoaruiz/" target="_blank" aria-label="LinkedIn"><i
+                class="fa fa-linkedin"></i></a>
+          </div>
         </div>
         <!--
         <div class="form">
@@ -382,22 +399,18 @@ $fotos = array(
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/sticky/sticky.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="assets/lib/jquery/jquery.min.js"></script>
+  <script src="assets/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="assets/lib/easing/easing.min.js"></script>
+  <script src="assets/lib/superfish/hoverIntent.js"></script>
+  <script src="assets/lib/superfish/superfish.min.js"></script>
+  <script src="assets/lib/wow/wow.min.js"></script>
+  <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="assets/lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="assets/lib/sticky/sticky.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>

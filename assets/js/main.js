@@ -134,6 +134,74 @@ jQuery(document).ready(function ($) {
     }
   });  
     
+  // Wraps the currently displayed lightbox image with a draggable
+  // before/after slider whenever the active item has a "data-restored" photo.
+  function initCompareSlider(mfp) {
+    var item = mfp.currItem;
+    if (!item || !item.img) return;
+
+    var restoredSrc = item.el && item.el.data('restored');
+    var $img = item.img;
+
+    // Already wrapped for this exact image (e.g. duplicate load event).
+    if ($img.parent().hasClass('compare-wrap')) {
+      if (!restoredSrc) {
+        $img.unwrap();
+      }
+      return;
+    }
+
+    if (!restoredSrc) return;
+
+    var $wrap = $img.wrap('<div class="compare-wrap"></div>').parent();
+
+    var $restored = $('<img class="compare-restored" alt="">').attr('src', restoredSrc);
+    var $handle = $('<div class="compare-handle"><span class="compare-handle-grip">&#8596;</span></div>');
+    var $labelOriginal = $('<span class="compare-label compare-label-original">Original</span>');
+    var $labelRestored = $('<span class="compare-label compare-label-restored">Restaurada com IA</span>');
+
+    $wrap.append($restored, $handle, $labelOriginal, $labelRestored);
+
+    function setPosition(percent) {
+      percent = Math.max(0, Math.min(100, percent));
+      $restored.css('clip-path', 'inset(0 ' + (100 - percent) + '% 0 0)');
+      $handle.css('left', percent + '%');
+    }
+    setPosition(50);
+
+    var dragging = false;
+
+    function moveTo(clientX) {
+      var rect = $wrap[0].getBoundingClientRect();
+      if (!rect.width) return;
+      setPosition(((clientX - rect.left) / rect.width) * 100);
+    }
+
+    $handle.on('mousedown touchstart', function (e) {
+      dragging = true;
+      e.stopPropagation();
+      e.preventDefault();
+    });
+
+    $wrap.on('mousedown touchstart', function (e) {
+      if ($(e.target).closest('.compare-handle').length) return;
+      dragging = true;
+      var clientX = e.type === 'touchstart' ? e.originalEvent.touches[0].clientX : e.clientX;
+      moveTo(clientX);
+      e.preventDefault();
+    });
+
+    $(document).on('mousemove.compare touchmove.compare', function (e) {
+      if (!dragging) return;
+      var clientX = e.type === 'touchmove' ? e.originalEvent.touches[0].clientX : e.clientX;
+      moveTo(clientX);
+    });
+
+    $(document).on('mouseup.compare touchend.compare', function () {
+      dragging = false;
+    });
+  }
+
   $('.fotos-popup').magnificPopup({
     type: 'image',
     removalDelay: 300,
@@ -147,6 +215,14 @@ jQuery(document).ready(function ($) {
       easing: 'ease-in-out',
       opener: function (openerElement) {
         return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    },
+    callbacks: {
+      imageLoadComplete: function () {
+        initCompareSlider(this);
+      },
+      close: function () {
+        $(document).off('.compare');
       }
     }
   });
