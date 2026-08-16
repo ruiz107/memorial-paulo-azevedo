@@ -8,6 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
+  <link href="assets/img/favicon.svg" rel="icon" type="image/svg+xml">
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -77,11 +78,11 @@
   ============================-->
   <section id="intro">
     <div id="intro-carousel" class="owl-carousel" >
-      <div class="item" style="background-image: url('assets/img/custom/slider/3.jpg');"></div>
-      <div class="item" style="background-image: url('assets/img/custom/slider/4.jpg');"></div>
-      <div class="item" style="background-image: url('assets/img/custom/slider/1.jpg');"></div>
-      <div class="item" style="background-image: url('assets/img/custom/slider/2.jpg');"></div>
-      <div class="item" style="background-image: url('assets/img/custom/slider/5.jpg');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/fotos/atualizadas/1.webp');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/fotos/atualizadas/5.webp');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/fotos/atualizadas/11.webp');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/fotos/atualizadas/17.webp');"></div>
+      <div class="item" style="background-image: url('assets/img/custom/fotos/atualizadas/3.webp');"></div>
     </div>
 
   </section>
